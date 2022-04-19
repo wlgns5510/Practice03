@@ -9,18 +9,20 @@ public class Ex16 {
 		System.out.print("숫자를 입력하세요: ");
 		int num = sc.nextInt();
 		int bs=0;
+		int sum=0;
 		for(int i=1; i<=num; i++) {
-			if(bs<num) {
-				bs=i*5;
-				System.out.println(bs);
-				
+			bs=i*5;
+			
+			if(bs<=num) {				
+				sum+=bs;
 			}
 			
 			
+			
 		}		
-		bs=bs+bs;
+		
 		System.out.println("5의배수의 개수: " + num/5);
-		System.out.println("5의배수의 합: " + bs);
+		System.out.println("5의배수의 합: " + sum);
 		
 		sc.close();
 
