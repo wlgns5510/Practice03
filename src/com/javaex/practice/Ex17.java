@@ -9,8 +9,8 @@ public class Ex17 {
 		System.out.print("숫자를 입력하세요: ");
 		int num = sc.nextInt();
 		
-		for(int y=num; y>=0; y--) {
-			for(int x=1; x<=y; x++) {
+		for(int x=num; x>=0; x--) {
+			for(int y=1; y<=x; y++) {
 				System.out.print("*");
 			}
 			System.out.println("");
