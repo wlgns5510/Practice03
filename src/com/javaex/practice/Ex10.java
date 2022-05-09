@@ -16,7 +16,7 @@ public class Ex10 {
 				m = num;
 			}
 		}
-		System.out.println(m);
+		System.out.println("최대값은 " + m + "입니다.");
 		sc.close();
 
 	}
